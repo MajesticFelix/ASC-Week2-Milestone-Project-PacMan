@@ -377,6 +377,15 @@ function mouseClicked(){
             lifeCount = 1;
         }
     }
+
+    //Pause/Play Button
+    if(mouseX <= 550 && mouseX >= 500 && mouseY <= 700 && mouseY >= 660){
+        pressedPlayOrPauseButtons();
+    }
+    //Restart Button
+    if(mouseX <= 600 && mouseX >= 550 && mouseY <= 700 && mouseY >= 660){
+        pressedRestart();
+    }
 }
 
 function keyPressed(){
